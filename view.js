@@ -45,7 +45,10 @@ addClickHandlers: function( fn, context ) {
 
 
   updateGameView: function(  ) {
-    
+    $('#game-state-info').text( this.model.gameStateText );
+    $('#num-guesses').text( this.model.numGuesses );
+    $('#matched-cards').text( this.model.matchedCards );
+    $('#total-cards').text( this.model.totalCards );    
   },
 
 };

@@ -11,7 +11,7 @@ matcherModel = {
   selectedCard:null,
 
   numGuesses: 0,
-  totalCards: 0,
+  matchedCards: 0,
   gameStateText: "You haven't won yet, pick two cards",
 
 
